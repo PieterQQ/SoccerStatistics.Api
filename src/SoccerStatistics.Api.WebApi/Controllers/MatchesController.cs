@@ -24,6 +24,8 @@ namespace SoccerStatistics.Api.WebApi.Controllers
         /// <returns></returns>
         // GET: api/Matches/{id}
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(MatchDTO), 200)]
+        [ProducesResponseType(404)]
         public async Task<IActionResult> GetMatchById([FromRoute] GetMatchByIdQuery query)
         {
             _logger.LogInformation(LoggingEvents.GetItem, "Getting match {id}", query.Id);
