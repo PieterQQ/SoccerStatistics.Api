@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SoccerStatistics.Api.Application.Queries;
 using SoccerStatistics.Api.Core.DTO;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace SoccerStatistics.Api.WebApi.Controllers

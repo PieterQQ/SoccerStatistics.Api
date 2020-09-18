@@ -1,13 +1,9 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SoccerStatistics.Api.Application.Queries;
 using SoccerStatistics.Api.Core.DTO;
-using SoccerStatistics.Api.Database.Entities;
-using Swashbuckle.Swagger.Annotations;
 using System.Collections.Generic;
-using System.Net;
 using System.Threading.Tasks;
 
 namespace SoccerStatistics.Api.WebApi.Controllers
