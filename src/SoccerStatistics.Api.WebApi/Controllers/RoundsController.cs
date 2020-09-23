@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 
 namespace SoccerStatistics.Api.WebApi.Controllers
 {
+
     public class RoundsController : ApiControllerBase
     {
+       
         private readonly ILogger<RoundsController> _logger;
+
         public RoundsController(IMediator mediator, ILogger<RoundsController> logger) : base(mediator) 
         { 
             _logger = logger;

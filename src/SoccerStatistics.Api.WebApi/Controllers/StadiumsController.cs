@@ -8,9 +8,11 @@ using System.Threading.Tasks;
 
 namespace SoccerStatistics.Api.WebApi.Controllers
 {
+
     public class StadiumsController : ApiControllerBase
     {
         private readonly ILogger<StadiumsController> _logger;
+
         public StadiumsController(IMediator mediator, ILogger<StadiumsController> logger) : base(mediator)
         {
             _logger = logger;
